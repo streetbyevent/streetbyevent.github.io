@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>StreetBy invites you! | October 28 2017</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('div.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 3000,'easeInOutQuad');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+				
+				$('div#lunaplane a').bind('click',function(event){
+                    var $anchor = $(this);
+                    /*
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 3000,'easeInOutQuad');
+                    
+                    if you don't want to use the easing effects:*/
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                
+                    event.preventDefault();
+                });
+				
+            });
+        </script>
+        <script type="text/javascript" src="js/jquery.spritely-0.1.js"></script>
+        <script type="text/javascript">
+		(function($) {
+			$(document).ready(function() {
+			
+				
+				
+				$('#clouds').pan({fps: 30, speed: 0.5, dir: 'right'});
+				
+				$('#lunaplane').sprite({fps: 10, no_of_frames: 3})
+					/*.spRandom({
+						top: 443,
+						left: 538,
+						right: 588,
+						bottom: 480,
+						speed: 2000,
+						pause: 2000
+					});*/
+				
+				$('#kg').sprite({fps: 8, no_of_frames: 1})
+					.spRandom({
+						top: 20,
+						left: 50,
+						right: 90,
+						bottom: 80,
+						speed: 3500,
+						pause: 1000
+					});
+				
+			
+			});
+		})(jQuery);
+	</script>
+    <link type='text/css' href='contact.css' rel='stylesheet' media='screen' />
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('#hsresort a').lightBox();
+    });
+    </script>
+</head>
+
+<body>
+<div id="container">
+	<div id="section1">
+		<div id="kg"></div>  
+        <div id="lunaplane">
+        	<a id="btn-weekend" href="#section2">When</a>
+            <a id="btn-travel" href="#section3">Where</a>
+            <a id="btn-resort" href="#section4">Program</a>
+            <a id="btn-registry" href="#section5">RSVP</a>
+        </div>     
+        <img id="datelocation" src="images/datelocation.png" alt="June 5 2011, Cherry Valley CA" />
+        
+    </div><!--End section1-->
+    <div id="section2">
+        <div class="nav" id="nav2">
+        	<a class="up" id="up2" href="#section1"></a>
+            <a class="down" id="down2" href="#section3"></a>
+        </div><!--End nav-dl-->
+    	<div id="joinus">
+        	<!--<a id="btn-rsvp" href="#" class="contact">RSVP Here!</a>-->
+        </div>
+        <img id="cupcakes1" src="images/cupcakes.png" alt="Cupcakes!" />
+    </div><!--End section2-->
+    <div id="section3">
+    	<div class="nav" id="nav3">
+        	<a class="up" id="up3" href="#section2"></a>
+            <a class="down" id="down3" href="#section4"></a>
+        </div><!--End nav-dl-->
+    	<div id="travelinfo">
+        </div>
+        <img id="bunnyballoon" src="images/bunnyballoon.png" alt="Bunnies!" />
+    </div><!--End section3-->
+    <div id="section4">
+    	<div class="nav" id="nav4">
+        	<a class="up" id="up4" href="#section3"></a>
+            <a class="down" id="down4" href="#section5"></a>
+        </div><!--End nav-dl-->
+    	<div id="hsresort">        
+        	<a id="btn-trails" href="images/hiking_map.jpg" title="Hiking Trails">View Hiking Trails</a>
+            <a id="btn-property" href="images/resort_map.jpg" title="Highland Springs Resort Property Map">View Property Map</a>
+            </div>
+            <img id="rocketpig" src="images/rocketpig.png" alt="Rocket Pig!" />
+    </div>
+    <div id="section5">
+    	<div class="nav" id="nav5">
+        	<a class="up" id="up5" href="#section4"></a>
+            <a class="top" id="down5" href="#section1"></a>
+      </div><!--End nav-dl-->
+    	<div id="registry">
+        	<a id="btn-honeyfund" href="http://www.honeyfund.com/wedding/karlandgina" target="_blank">Honeyfund</a>
+        </div>
+    </div>
+    
+</div><!--End container-->
+<div id="clouds"></div>
+<script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='js/contact.js'></script>
+</body>
+</html>
