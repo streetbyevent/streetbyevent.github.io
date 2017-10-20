@@ -75,11 +75,7 @@
 	</script>
     <link type='text/css' href='contact.css' rel='stylesheet' media='screen' />
     <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
-<script type="text/javascript">
-    $(function() {
-        $('#hsresort a').lightBox();
-    });
-    </script>
+
 </head>
 
 <body>
@@ -123,11 +119,21 @@
             <a class="down" id="down4" href="#section5"></a>
         </div><!--End nav-dl-->
     	<div id="hsresort">        
-            <a id="btn-property" href="images/resort_map.jpg" title="Highland Springs Resort Property Map">View Property Map</a>
-            </div>
+            <a id="btn-property" href="#section5">View Property Map</a>
+
+        </div>
             <img id="rocketpig" src="images/rocketpig.png" alt="Rocket Pig!" />
     </div>
+
     <div id="section5">
+        <div class="nav" id="nav4">
+            <a class="up" id="up4" href="#section4"></a>
+            <a class="down" id="down4" href="#section6"></a>
+        </div><!--End nav-dl-->
+        <div id="routemap"></div>
+    </div>
+
+    <div id="section6">
     	<div class="nav" id="nav5">
         	<a class="up" id="up5" href="#section4"></a>
             <a class="top" id="down5" href="#section1"></a>
