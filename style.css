@@ -55,7 +55,7 @@ a:active, a:focus {
 ----------------------------- */
 
 body {
-	background:#0099be url(images/bg-bottom.png) bottom center no-repeat;
+	background:#d5bc9c url(images/bg-bottom.png) bottom center no-repeat;
 }
 #container {
 	width:1000px;
@@ -93,18 +93,11 @@ body {
 }
 /* Images
 ------------------------------*/
-#kg {
-	position:absolute;
-	top:20px;
-	left:10px;
-	width:487px;
-	height:755px;
-	background:url(images/karlandgina.png) 1000px 1000px no-repeat;
-}
+
 #streetby {
 	position:absolute;
 	top:20px;
-	left:10px;
+	left:10%;
 	width:487px;
 	height:755px;
 	background:url(images/streetby.png) 1000px 1000px no-repeat;
@@ -112,10 +105,18 @@ body {
 #lunaplane {
 	position:absolute;
 	top:403px;
-	right:18px;
-	width:433px;
+	right:10px;
+	width:535px;
 	height:358px;
 	background:url(images/lunaplane.png) 0px 0px no-repeat;
+}
+#ribbon {
+	position:absolute;
+	top:403px;
+	left:50%;
+	width:585px;
+	height:358px;
+	background:url(images/ribbon.png) 0px 0px no-repeat;
 }
 #logoposition {
 	position:absolute;
@@ -240,54 +241,52 @@ body {
 --------------------------*/
 #btn-weekend {
 	display:block;
-	width:93px;
+	width:70px;
 	height:43px;
 	background:url(images/btn-weekend.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:72px;
+	left:65px;
 }
 #btn-travel {
 	display:block;
-	width:69px;
+	width:75px;
 	height:43px;
 	background:url(images/btn-travel.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:178px;
+	left:130px;
 }
 #btn-resort {
 	display:block;
-	width:66px;
+	width:130px;
 	height:43px;
 	background:url(images/btn-resort.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:259px;
+	left:202px;
 }
 #btn-registry {
 	display:block;
-	width:81px;
-	height:59px;
+	width:100px;
+	height:43px;
 	background:url(images/btn-registry.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
-	top:60px;
-	left:338px;
+	top:43px;
+	left:300px;
 }
-#btn-weekend:hover, #btn-travel:hover, #btn-resort:hover {
+#btn-weekend:hover, #btn-travel:hover, #btn-resort:hover, #btn-registry:hover {
 	background-position:0px -43px;
 }
-#btn-registry:hover {
-	background-position:0px -59px;
-}
+
 /* Links
 -----------------*/
 #clouds {
