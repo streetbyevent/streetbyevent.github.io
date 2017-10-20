@@ -200,9 +200,9 @@ body {
 #registry {
 	position:absolute;
 	left:3px;
-	top:80px;
+	top:10px;
 	width:810px;
-	height:281px;
+	height:370px;
 	background:url(images/registry.png);
 }
 #btn-honeyfund {
@@ -235,7 +235,7 @@ body {
 #rocketpig {
 	position:absolute;
 	left:0px;
-	top:180px;
+	top:120px;
 }
 /* Top Links
 --------------------------*/
@@ -275,7 +275,7 @@ body {
 #btn-registry {
 	display:block;
 	width:100px;
-	height:43px;
+	height:100px;
 	background:url(images/btn-registry.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
