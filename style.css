@@ -309,7 +309,7 @@ body {
 #clouds {
 		  position:absolute;
 		  width:100%;
-		  height: 8225px;
+		  height: 10000px;
 		  background: transparent url(images/clouds.png) 0 0px repeat-x; 
 			top:0px;left:0px;
 			z-index:1;
