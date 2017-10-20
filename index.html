@@ -23,18 +23,18 @@
                     event.preventDefault();
                 });
 				
-				$('div#lunaplane a').bind('click',function(event){
+				$('div#ribbon a').bind('click',function(event){
                     var $anchor = $(this);
-                    /*
+                    
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 3000,'easeInOutQuad');
-                    
-                    if you don't want to use the easing effects:*/
+                    /*
+                    if you don't want to use the easing effects:
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
                     }, 1000);
-                
+                    */
                     event.preventDefault();
                 });
 				
@@ -50,14 +50,14 @@
 				$('#clouds').pan({fps: 30, speed: 0.5, dir: 'right'});
 				
 				$('#lunaplane').sprite({fps: 10, no_of_frames: 3})
-					/*.spRandom({
+					.spRandom({
 						top: 443,
 						left: 538,
 						right: 588,
 						bottom: 480,
 						speed: 2000,
 						pause: 2000
-					});*/
+					});
 				
 				$('#kg').sprite({fps: 8, no_of_frames: 1})
 					.spRandom({
@@ -123,7 +123,6 @@
             <a class="down" id="down4" href="#section5"></a>
         </div><!--End nav-dl-->
     	<div id="hsresort">        
-        	<a id="btn-trails" href="images/hiking_map.jpg" title="Hiking Trails">View Hiking Trails</a>
             <a id="btn-property" href="images/resort_map.jpg" title="Highland Springs Resort Property Map">View Property Map</a>
             </div>
             <img id="rocketpig" src="images/rocketpig.png" alt="Rocket Pig!" />
@@ -139,7 +138,6 @@
     </div>
     
 </div><!--End container-->
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
 <script type='text/javascript' src='js/contact.js'></script>
 </body>

@@ -129,7 +129,7 @@ body {
 #datelocation {
 	position:absolute;
 	top:276px;
-	right:20px;
+	left:55%;
 	z-index:1;
 }
 #joinus {
@@ -248,7 +248,7 @@ body {
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:65px;
+	left:90px;
 }
 #btn-travel {
 	display:block;
@@ -259,7 +259,7 @@ body {
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:130px;
+	left:170px;
 }
 #btn-resort {
 	display:block;
@@ -270,7 +270,7 @@ body {
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:202px;
+	left:262px;
 }
 #btn-registry {
 	display:block;
@@ -281,7 +281,7 @@ body {
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:300px;
+	left:375px;
 }
 #btn-weekend:hover, #btn-travel:hover, #btn-resort:hover, #btn-registry:hover {
 	background-position:0px -43px;
