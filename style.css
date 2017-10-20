@@ -101,6 +101,14 @@ body {
 	height:755px;
 	background:url(images/karlandgina.png) 1000px 1000px no-repeat;
 }
+#streetby {
+	position:absolute;
+	top:20px;
+	left:10px;
+	width:487px;
+	height:755px;
+	background:url(images/streetby.png) 1000px 1000px no-repeat;
+}
 #lunaplane {
 	position:absolute;
 	top:403px;
@@ -108,6 +116,14 @@ body {
 	width:433px;
 	height:358px;
 	background:url(images/lunaplane.png) 0px 0px no-repeat;
+}
+#logoposition {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:487px;
+	height:755px;
+	background:url(images/streetby.png) 0px 0px no-repeat;
 }
 #datelocation {
 	position:absolute;
