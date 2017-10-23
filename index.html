@@ -41,38 +41,6 @@
             });
         </script>
         <script type="text/javascript" src="js/jquery.spritely-0.1.js"></script>
-        <script type="text/javascript">
-		(function($) {
-			$(document).ready(function() {
-			
-				
-				
-				$('#clouds').pan({fps: 30, speed: 0.5, dir: 'right'});
-				
-				$('#lunaplane').sprite({fps: 10, no_of_frames: 3})
-					.spRandom({
-						top: 443,
-						left: 538,
-						right: 588,
-						bottom: 480,
-						speed: 2000,
-						pause: 2000
-					});
-				
-				$('#kg').sprite({fps: 8, no_of_frames: 1})
-					.spRandom({
-						top: 20,
-						left: 20,
-						right: 20,
-						bottom: 20,
-						speed: 0,
-						pause: 0
-					});
-				
-			
-			});
-		})(jQuery);
-	</script>
     <link type='text/css' href='contact.css' rel='stylesheet' media='screen' />
     <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
 
@@ -83,46 +51,35 @@
 	<div id="section1">
 		 <!-- <div id="kg"></div> -->
 
-        <div id="logoposition"> </div>
+        <div id="logoposition">         </div>
 
         <div id="ribbon">
-        	<a id="btn-weekend" href="#section2">When</a>
-            <a id="btn-travel" href="#section3">Where</a>
-            <a id="btn-resort" href="#section4">Program</a>
-            <a id="btn-registry" href="#section5">Contact</a>
+            <a id="btn-weekend" href="#section2">About</a>
+            <a id="btn-travel" href="#section5">Program</a>
+            <a id="btn-resort" href="#section4">Route</a>
+            <a id="btn-registry" href="#section6">RSVP</a>
         </div>     
-        <img id="datelocation" src="images/datelocation.png" alt="June 5 2011, Cherry Valley CA" />
         
     </div><!--End section1-->
     <div id="section2">
         <div class="nav" id="nav2">
         	<a class="up" id="up2" href="#section1"></a>
-            <a class="down" id="down2" href="#section3"></a>
+            <a class="down" id="down2" href="#section4"></a>
         </div><!--End nav-dl-->
-    	<div id="joinus">
+    	<div id="itemabout">
         	<!--<a id="btn-rsvp" href="#" class="contact">RSVP Here!</a>-->
         </div>
-        <img id="cupcakes1" src="images/cupcakes.png" alt="Cupcakes!" />
     </div><!--End section2-->
-    <div id="section3">
-    	<div class="nav" id="nav3">
-        	<a class="up" id="up3" href="#section2"></a>
-            <a class="down" id="down3" href="#section4"></a>
-        </div><!--End nav-dl-->
-    	<div id="travelinfo">
-        </div>
-        <img id="bunnyballoon" src="images/bunnyballoon.png" alt="Bunnies!" />
-    </div><!--End section3-->
+
     <div id="section4">
     	<div class="nav" id="nav4">
-        	<a class="up" id="up4" href="#section3"></a>
+        	<a class="up" id="up4" href="#section2"></a>
             <a class="down" id="down4" href="#section5"></a>
         </div><!--End nav-dl-->
-    	<div id="hsresort">        
-            <a id="btn-property" href="#section5">View Property Map</a>
+    	<div id="itemprogram">        
+            <a href="#section5"></a>
 
         </div>
-            <img id="rocketpig" src="images/rocketpig.png" alt="Rocket Pig!" />
     </div>
 
     <div id="section5">
@@ -130,21 +87,20 @@
             <a class="up" id="up4" href="#section4"></a>
             <a class="down" id="down4" href="#section6"></a>
         </div><!--End nav-dl-->
-        <div id="routemap"></div>
+        <div id="itemroute"></div>
     </div>
 
     <div id="section6">
     	<div class="nav" id="nav5">
-        	<a class="up" id="up5" href="#section4"></a>
+        	<a class="up" id="up5" href="#section5"></a>
             <a class="top" id="down5" href="#section1"></a>
-      </div><!--End nav-dl-->
-    	<div id="registry">
-        	<a id="btn-honeyfund" href="http://www.honeyfund.com/wedding/karlandgina" target="_blank">Honeyfund</a>
+        </div><!--End nav-dl-->
+        <div id="itemrsvp">
         </div>
     </div>
     
 </div><!--End container-->
-<div id="clouds"></div>
+<div id="texture"></div>
 <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
 <script type='text/javascript' src='js/contact.js'></script>
 </body>

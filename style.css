@@ -55,7 +55,7 @@ a:active, a:focus {
 ----------------------------- */
 
 body {
-	background:#d5bc9c url(images/bg-bottom.png) bottom center no-repeat;
+	background:#d5bc9c;
 }
 #container {
 	width:1000px;
@@ -101,204 +101,104 @@ body {
 /* Images
 ------------------------------*/
 
-#streetby {
-	position:absolute;
-	top:20px;
-	left:10%;
-	width:487px;
-	height:755px;
-	background:url(images/streetby.png) 1000px 1000px no-repeat;
-}
-#lunaplane {
-	position:absolute;
-	top:403px;
-	right:10px;
-	width:535px;
-	height:358px;
-	background:url(images/lunaplane.png) 0px 0px no-repeat;
-}
+
 #ribbon {
 	position:absolute;
-	top:403px;
-	left:50%;
+	top:440px;
+	left:330px;
 	width:585px;
 	height:358px;
-	background:url(images/ribbon.png) 0px 0px no-repeat;
 }
 #logoposition {
 	position:absolute;
 	top:10px;
-	left:5px;
-	width:487px;
+	left:200px;
+	width:700px;
 	height:755px;
 	background:url(images/streetby.png) 0px 0px no-repeat;
 }
-#datelocation {
+
+#itemabout {
 	position:absolute;
-	top:276px;
-	left:55%;
-	z-index:1;
-}
-#joinus {
-	position:absolute;
-	left:195px;
+	left:105px;
 	top:80px;
-	background:url(images/joinus.png) no-repeat;
+	background:url(images/itemabout.png) no-repeat;
 	width:823px;
-	height:427px;
-}
-#btn-rsvp {
-	position:absolute;
-	display:block;
-	width:148px;
-	height:87px;
-	top:198px;
-	right:41px;
-	background:url(images/btn-rsvp.png) 0px 0px no-repeat;
-	text-indent:-9999em;
-}
-#btn-rsvp:hover {
-	background-position:0px -87px;
-}
-#travelinfo {
-	position:absolute;
-	top:80px;
-	left:0px;
-	margin-left:-31px;
-	background:url(images/travelinfo.png);
-	width:810px;
-	height:614px;
+	height:827px;
 }
 
-#hsresort {
+#itemprogram {
 	position:absolute;
-	left:195px;
-	top:80px;
+	left:105px;
+	top:400px;
 	width:810px;
 	height:642px;
-	background:url(images/hsresort.png);
+	background:url(images/itemprogram.png);
 }
 
-#routemap {
+#itemroute {
 	position:absolute;
-	left:155px;
+	left:105px;
 	top:80px;
-	width:810px;
-	height:642px;
-	background:url(images/resort_map.jpg);
+	width:800px;
+	height:850px;
+	background:url(images/itemroute.png);
 }
 
-#btn-trails {
+#itemrsvp {
 	position:absolute;
-	display:block;
-	height:200px;
-	width:146px;
-	background:url(images/btn-trails.png) 0px 0px no-repeat;
-	text-indent:-9999em;
-	right:372px;
-	top:417px;
-}
-#btn-trails:hover {
-	background-position:0px -200px;
-}
-#btn-property {
-	position:absolute;
-	display:block;
-	width:158px;
-	height:144px;
-	background:url(images/btn-property.png) 0px 0px no-repeat;
-	text-indent:-9999em;
-	left:146px;
-	top:498px;
-}
-#btn-property:hover {
-	background-position:0px -144px;
-}
-#registry {
-	position:absolute;
-	left:3px;
+	left:70px;
 	top:10px;
 	width:810px;
-	height:370px;
-	background:url(images/registry.png);
-}
-#btn-honeyfund {
-	position:absolute;
-	display:block;
-	width:162px;
-	height:29px;
-	text-indent:-9999em;
-	background:url(images/btn-honeyfund.png) 0px 0px no-repeat;
-	top:89px;
-	left:564px;
-}
-#btn-honeyfund:hover {
-	background-position:0px -29px;
+	height:670px;
+	background:url(images/itemrsvp.png);
 }
 
-/* Floating Critters
-----------------------------------*/
-
-#cupcakes1 {
-	position:absolute;
-	top:530px;
-	left:30px;
-}
-#bunnyballoon {
-	position:absolute;
-	top:138px;
-	left:778px;
-}
-#rocketpig {
-	position:absolute;
-	left:0px;
-	top:120px;
-}
 /* Top Links
 --------------------------*/
 #btn-weekend {
 	display:block;
-	width:70px;
+	width:75px;
 	height:43px;
-	background:url(images/btn-weekend.png) 0px 0px no-repeat;
+	background:url(images/btn-about.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
-	top:43px;
-	left:90px;
+	top:45px;
+	left:0px;
 }
 #btn-travel {
 	display:block;
-	width:75px;
+	width:130px;
 	height:43px;
-	background:url(images/btn-travel.png) 0px 0px no-repeat;
+	background:url(images/btn-program.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:170px;
+	left:100px;
 }
 #btn-resort {
 	display:block;
-	width:130px;
+	width:75px;
 	height:43px;
-	background:url(images/btn-resort.png) 0px 0px no-repeat;
+	background:url(images/btn-route.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:262px;
+	left:225px;
 }
 #btn-registry {
 	display:block;
 	width:100px;
 	height:43px;
-	background:url(images/btn-registry.png) 0px 0px no-repeat;
+	background:url(images/btn-rsvp.png) 0px 0px no-repeat;
 	cursor:pointer;
 	text-indent:-9999em;
 	position:absolute;
 	top:43px;
-	left:375px;
+	left:315px;
 }
 #btn-weekend:hover, #btn-travel:hover, #btn-resort:hover, #btn-registry:hover {
 	background-position:0px -43px;
@@ -306,11 +206,11 @@ body {
 
 /* Links
 -----------------*/
-#clouds {
+#texture {
 		  position:absolute;
 		  width:100%;
-		  height: 10000px;
-		  background: transparent url(images/clouds.png) 0 0px repeat-x; 
+		  height: 8035px;
+		  background: transparent url(images/texture.png) 0 0px repeat-x; 
 			top:0px;left:0px;
 			z-index:1;
 		  
@@ -363,28 +263,20 @@ a.down:hover, a.down:active, a.top:hover, a.top:active {
 	position:absolute;
 	top:616px;
 	right:0px;
-	margin-right:-75px;
+	margin-right:-35px;
 	z-index:10;
 }
 #nav5 {
 	position:absolute;
 	top:270px;
-	left:790px;
+	left:890px;
 	z-index:10;
 }
-/**
- * jQuery lightBox plugin
- * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
- * and adapted to me for use like a plugin from jQuery.
- * @name jquery-lightbox-0.5.css
- * @author Leandro Vieira Pinho - http://leandrovieira.com
- * @version 0.5
- * @date April 11, 2008
- * @category jQuery plugin
- * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
- * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
- * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
- */
+
+
+
+
+
 #jquery-overlay {
 	position: absolute;
 	top: 0;
