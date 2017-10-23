@@ -130,7 +130,7 @@ body {
 #itemprogram {
 	position:absolute;
 	left:105px;
-	top:400px;
+	top:80px;
 	width:810px;
 	height:642px;
 	background:url(images/itemprogram.png);
@@ -139,7 +139,7 @@ body {
 #itemroute {
 	position:absolute;
 	left:105px;
-	top:80px;
+	top:40px;
 	width:800px;
 	height:850px;
 	background:url(images/itemroute.png);
